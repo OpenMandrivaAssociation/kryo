@@ -1,0 +1,12 @@
+--- a/src/com/esotericsoftware/kryo/util/UnsafeUtil.java
++++ b/src/com/esotericsoftware/kryo/util/UnsafeUtil.java
+@@ -10,8 +10,8 @@
+ import java.util.Comparator;
+ import java.util.List;
+ 
+-import sun.misc.Cleaner;
+ import sun.misc.Unsafe;
++import sun.nio.Cleaner;
+ import sun.nio.ch.DirectBuffer;
+ 
+ /**
